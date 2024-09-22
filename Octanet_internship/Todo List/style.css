@@ -1,0 +1,100 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: bisque;
+}
+#wrapper{
+    background-color: cadetblue;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 520px;
+    top: 100px;
+    border-radius: 10px;
+}
+#wrapper h2{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: bisque;
+    padding: 20px;
+}
+#input{
+    width: 12rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: solid brown;
+    position: absolute;
+    left: 90px;
+}
+#add{
+    width: 6rem;
+    height: 2.5rem;
+    position: absolute;
+    left:320px;
+    border-radius: 10px;
+    border: solid brown;
+    background-color: bisque;
+    color: brown;
+}
+#todolist{
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    top: 70px;
+    left: 90px;
+    cursor: pointer;
+}
+.instruction{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+}
+@media screen and (max-width:1237px) {
+
+    #wrapper{
+        position: relative;
+        right: 500px;
+        left: 60px;
+        width: 250px;
+        
+    }
+
+    #input{
+        width: 13rem;
+        height: 2rem;
+         
+        border-radius: 5px;
+        border: solid brown;
+        position: absolute;
+        left: 20px;
+    }
+    #add{
+        width: 6rem;
+        height: 2.5rem;
+        position: absolute;
+        top: 200px;
+        left:80px;
+        border-radius: 10px;
+        border: solid brown;
+        background-color: bisque;
+        color: brown;
+    }
+    #todolist{
+        color: white;
+        font-size: 2rem;
+        position: relative;
+        top: 130px;
+        left: 90px;
+        cursor: pointer;
+    }
+    .instruction{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 120px;
+        padding-bottom: 30px;
+    }
+}
